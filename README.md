@@ -6,7 +6,9 @@ git명령어|역할
 ---|---
 git clone <저장소url>|저장소 복제
 git init|새로운 저장소 초기화하기
-git config - -global - -list|전역 설정 정보 조회
+git config --global - -list|전역 설정 정보 조회
+git config --global user.email|이메일 주소를 추가
+git config --global user.name |유저 이름을 추가
 git config --global --unset-all user.email|전역 설정 정보 삭제시키기
 git config --global --unset-all user.name |전역 설정 정보 삭제시키기
 git remote add <원격 저장소> <저장소 url>|새로운 원격 저장소 추가
@@ -15,8 +17,8 @@ git commit -m “<메시지>”|현재까지 작업한 내용 저장하기
 git fetch <원격 저장소>|원격 저장소에서 합치지 않고 지역 브랜치로 변경 사항 가져오기
 git pull <원격 저장소>|원격 저장소에서 변경 사항을 가져와 현재 브랜치에 합치기
 git push <원격 저장소> <지역 브랜치>|새로운 로컬 브랜치를 원격 저장소에 푸싱하기
-
-
+git config --global color.ui "auto"|출력 결과 색상 활성화
+git config --global color.ui "off"|출력 결과 색상 비활성화
 
 
 
@@ -33,4 +35,6 @@ git push <원격 저장소> <지역 브랜치>|새로운 로컬 브랜치를 원
 
 [naver로 갑니다](naver.com)
 
+### 구분선 넣기
+-을 3번 입력.
 
