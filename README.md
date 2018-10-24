@@ -1,1 +1,36 @@
 # git-language
+
+## git 명령어 ##
+
+git명령어|역할
+---|---
+git clone <저장소url>|저장소 복제
+git init|새로운 저장소 초기화하기
+git config - -global - -list|전역 설정 정보 조회
+git config --global --unset-all user.email|전역 설정 정보 삭제시키기
+git config --global --unset-all user.name |전역 설정 정보 삭제시키기
+git remote add <원격 저장소> <저장소 url>|새로운 원격 저장소 추가
+git add <파일>|새로운 파일 git에 등록시키기(스태깅)
+git commit -m “<메시지>”|현재까지 작업한 내용 저장하기
+git fetch <원격 저장소>|원격 저장소에서 합치지 않고 지역 브랜치로 변경 사항 가져오기
+git pull <원격 저장소>|원격 저장소에서 변경 사항을 가져와 현재 브랜치에 합치기
+git push <원격 저장소> <지역 브랜치>|새로운 로컬 브랜치를 원격 저장소에 푸싱하기
+
+
+
+
+
+## markdown 명령어 ##
+
+### 폰트 관련 사용법
+
+볼드체 설정|이탤릭체 설정|취소선 긋기|색입히기
+---|:---|:---:|---:
+**볼드**|*이탤릭*|~~취소선~~|<span style="color:red">색입히기</span>
+글자앞뒤를 **으로 씌움|글자 앞뒤를 *로 씌움|글자 앞뒤를 ~~로 씌움|html의 span 태그 사용
+
+### 링크 넣기
+
+[naver로 갑니다](naver.com)
+
+
